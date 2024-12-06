@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript loop</title>
+    </head>
+    <body>
+        <h2>Javascript for loop</h2>
+        <p id="demo"></p>
+        <script>
+            var subjects = ["Sanskrit","Computer","Reasoning","Mathematics","Gujarati",
+                "Science"];
+                var text = "";
+                var i;
+                for (i = 0; i < subjects.length;i++) {
+                    text += subjects[i] + "<br>";
+                }
+                document.getElementById("demo").innerHTML = text;
+        </script>
+    </body>
+</html>
